@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="advance.css">
+    <script src="https://kit.fontawesome.com/2fbd9339fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Advanced Search</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="top">
+                <ul>
+                    <img class="logo" alt='Google' src="googlelogo_color_272x92dp.png"></img>
+                    <div class="menu">
+                        <li><a href="index.html">Google Search</a></li>
+                        <li><a href="image.html">Google Image Search</a></li>
+                    </div>
+    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="appbar">
+        <label class="appBar">Advanced Search</label>              
+    </div>
+
+    <div class="line"></div>
+    
+    <form action="https://google.com/search">
+
+        <div id="titleRow" class="form-row">
+            <label class="col-6">Find pages with...</label>
+            <label class="col">To do this in the search box.</label>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">all these words:</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control form-control-sm" name="as_q">
+            </div>
+            <small id="helperText" class="col-sm-6 text-muted" >Type the important words: tri-colour rat terrier</small>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">this exact word or phrase:</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control form-control-sm" name="as_q">
+            </div>
+            <small id="helperText" class="col-sm-6 text-muted" >Put exact words in quotes: "rat terrier"</small>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">any of these words:</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control form-control-sm" name="as_q">
+            </div>
+            <small id="helperText" class="col-sm-6 text-muted" >Type OR between all the words you want: miniature OR standard</small>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">none of these words:</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control form-control-sm" name="as_q">
+            </div>
+            <small id="helperText" class="col-sm-6 text-muted" >Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</small>
+        </div>
+
+        <div class="button">
+            <input type="submit button" class="btn btn-primary btn-sm" data-toggle="button" id="adbtn" value="Advanced Search">
+        </div>
+</body>
+</html>
+
