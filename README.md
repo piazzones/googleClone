@@ -1,2 +1,39 @@
-# googleClone
-Google clone subject, from CS50 Web programming
+<h1>CS50 Project0 - Google Search clone</h1>
+
+A quick overview of the first assignment of CS50 Web Programming: a simple clone of Google Search, Google Advanced Search and Google Images purely made with HTML and SCSS.
+
+<h2>Assignment specification</h2>
+
+<li>Pages. Your website should have at least three pages: one for Google Search, one for Google Image Search, and one for Google Advanced Search.
+On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search. </li>
+
+<br>
+
+<li>Query Text. On the Google Search page, the user should be able to type in a query, click “Google Search”, and be taken to the Google search results for that page.
+Like Google’s own, your search bar should be centered with rounded corners. The search button should also be centered, and should be beneath the search bar.</li>
+
+<br>
+
+<li> Query Images. On the Google Image Search page, the user should be able to type in a query, click a search button, and be taken to the Google Image search results for that page. </li>
+
+<br>
+
+<li> Query Advanced. On the Google Advanced Search page, the user should be able to provide input for the following four fields (taken from Google’s own advanced search options)
+    Find pages with… “all these words:”
+    Find pages with… “this exact word or phrase:”
+    Find pages with… “any of these words:”
+    Find pages with… “none of these words:"
+ </li>
+ 
+ <br>
+
+<li> Appearance. Like Google’s own Advanced Search page, the four options should be stacked vertically, and all of the text fields should be left aligned.
+Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text. When the “Advanced Search” button is clicked, the user should be taken to search results page for their given query. </li>
+
+<br>
+
+<li> Lucky. Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page. </li>
+
+<br>
+
+<li> Aesthetics. The CSS you write should match Google’s own aesthetics as best as possible.</li>
